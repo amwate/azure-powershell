@@ -18,7 +18,10 @@ namespace Microsoft.Azure.Commands.Network.Models
         
         [Ps1Xml(Label = "PrivateIpAddress", Target = ViewControl.Table)]
         public string PrivateIpAddress { get; set; }
-        
+
+        [Ps1Xml(Label = "PrivateIpv6Address", Target = ViewControl.Table)]
+        public string PrivateIpv6Address { get; set; }
+
         [Ps1Xml(Label = "VpnUserName", Target = ViewControl.Table)]
         public string VpnUserName { get; set; }
         

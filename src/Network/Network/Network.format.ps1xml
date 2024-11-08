@@ -1176,6 +1176,10 @@
           </TableColumnHeader>
           <TableColumnHeader>
             <Alignment>Left</Alignment>
+            <Label>PrivateIpv6Address</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
             <Label>VpnUserName</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -1225,6 +1229,10 @@
               <TableColumnItem>
                 <Alignment>Left</Alignment>
                 <PropertyName>PrivateIpAddress</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>PrivateIpv6Address</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <Alignment>Left</Alignment>
